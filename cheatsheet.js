@@ -8,7 +8,8 @@
 3. Different data types
 4. Arrays
 5. Testing
-6. Logic */
+6. Logic 
+NEW - 7. Functions */
 
 // 1. Variables
 // - used to store values
@@ -101,3 +102,25 @@
 	  	alert('The result is too big. Please try setting num7 and num8 to different values.')
 	  }
 
+// 7. Functions
+	// - encapsulate code for later use
+	// - can take arguments and return values
+	// - many use cases, including automating repetitive processes
+
+	// Example 1: Check If Password = "HelloWorld" 
+		function passwordCheck(password) {
+			// check to see if password = "HelloWorld"
+			if (password === "HelloWorld") {
+				return alert("Your password is correct.")
+			}
+			// otherwise, print 'incorrect' statement
+			else {
+				return alert("Your password is incorrect. Please try again.")
+			}
+		} 
+		// To invoke: 
+		passwordCheck("HelloWorld");
+
+	// Example 2:
+
+	// Example 3: 
