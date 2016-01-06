@@ -1,6 +1,6 @@
 // Scott Yim
 // Assignment 6
-// JavaScript /jQuery Cheat Sheet
+// JavaScript Cheat Sheet
 
 /* CONTENTS
 1. Variables
@@ -121,6 +121,12 @@ NEW - 7. Functions */
 		// To invoke: 
 		passwordCheck("HelloWorld");
 
-	// Example 2:
+	// Example 2: Addition of 2 Numbers
+		function addTwoNumbers(firstNumber, secondNumber) {
 
-	// Example 3: 
+		}
+
+	// Example 3: Subtraction of 2 Numbers
+		function subtractTwoNumbers(firstNumber, secondNumber) {
+			
+		}
