@@ -123,10 +123,16 @@ NEW - 7. Functions */
 
 	// Example 2: Addition of 2 Numbers
 		function addTwoNumbers(firstNumber, secondNumber) {
-
+			var total = firstNumber + secondNumber;
+			return alert("The total is " + total);
 		}
+		// To invoke: 
+		addTwoNumbers(2,5);
 
-	// Example 3: Subtraction of 2 Numbers
-		function subtractTwoNumbers(firstNumber, secondNumber) {
-			
+	// Example 3: Multiplication of 2 Numbers
+		function multiplyTwoNumbers(firstNumber, secondNumber) {
+			var total = firstNumber*secondNumber;
+			return alert("The total is " + total);
 		}
+		// To invoke: 
+		multiplyTwoNumbers(10,10);
